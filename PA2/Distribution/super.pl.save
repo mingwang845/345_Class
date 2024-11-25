@@ -1,0 +1,7 @@
+ta(Tanner,CSc460).
+ta(Aayush,CSc460).
+ta(Aayush,CSc445).
+instructor(Zhang,CSc460). 
+instructor(McCann,CSc445).
+
+supervises(X,Y) :- instructor(X,Z), ta(Y,Z).
